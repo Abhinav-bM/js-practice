@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    
 </head>
 <body>
-    <h2>hai......</h2>
-    <h1>heloo</h1>
+    <h2>can change attributes value</h2>
+    
+    <button onclick="document.getElementById('myimage').src='image/lightbulb_on.png'">light on</button>
+
+    <img id="myimage" src="image/lightbulb_off.png" alt="">
+
+    <button onclick="document.getElementById('myimage').src='image/lightbulb_off.png'">light off</button>
+
+    <h1 id="fontsize">changing the font width</h1>
+
+    <button type="button"  onclick="document.getElementById('fontsize').style.display='none'">hide</button>
+    <button type="button"  onclick="document.getElementById('fontsize').style.display='block'">view</button>
+    
+    
+
+    <p id="demo"></p>
+    
+    <button type="button" onclick="myFunction()">clich---here</button>
+
+    
+
+
+
+
+    
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "Paragraph changed";
+        }
+    </script>
 </body>
 </html>
