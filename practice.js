@@ -1,5 +1,4 @@
-let num1 = 20;
-let num2 = 30;
-let result = num1 + num2;
- console.log(result);
+var a = 10;
+var b = 20;
 
+console.log(a+~b)
