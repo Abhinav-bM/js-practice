@@ -1,4 +1,2 @@
-var a = 20;
-var b = 10;
-
-console.log(a-b);
+const myArray = [["milk", 30], ["food",40]];
+console.log(myArray);
