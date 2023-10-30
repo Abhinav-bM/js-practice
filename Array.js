@@ -1,3 +1,3 @@
-const my = [1,2,3];
-my.shift();
-my.unshift(5);
+const a = [[10,15,20],[[35,660,500],[100,200,300]]]
+
+console.log(a[1][0][1]);
