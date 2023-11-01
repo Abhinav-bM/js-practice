@@ -5,8 +5,22 @@
 
 // returning boolean from functions
 
-function booleanreturn(a, b){
-    return  a < b ;
+// function booleanreturn(a, b){
+//     return  a < b ;
+// }
+
+// console.log(booleanreturn(10, 2));
+
+
+// accessing object data
+
+const cat = {
+    "name" : "meow",
+    age : 5,
+    friends : ["cat1","cat2"],
 }
 
-console.log(booleanreturn(10, 2));
+const check = cat.name;
+
+console.log(check);
+
