@@ -14,13 +14,21 @@
 
 // accessing object data
 
-const cat = {
-    "name" : "meow",
-    age : 5,
-    friends : ["cat1","cat2"],
-}
+// const cat = {
+//     "name" : "meow",
+//     age : 5,
+//     friends : ["cat1","cat2"],
+// }
 
-const check = cat.name;
+// const check = cat.name;
 
-console.log(check);
+// console.log(check);
+
+let a = [1,2,3,4,5]
+
+a.push(10);
+
+console.log(a);
+
+
 
