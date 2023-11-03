@@ -52,6 +52,15 @@
 
 // console.log(myArray);
 
+// let myArray = [1,2,3,4]
+
+// let newArray = myArray.slice(1); //can used to specify array index start
+
+// console.log(newArray);
+
+
+
+
 
 
 
