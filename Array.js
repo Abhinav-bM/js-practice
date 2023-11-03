@@ -44,6 +44,14 @@
 // console.log(myArray);
 
 
+// let myArray = ["a","b","c"]
+
+// myArray.splice(1,0); //used to remove
+
+// myArray.splice(2,0, "j","k"); //used to add
+
+// console.log(myArray);
+
 
 
 
