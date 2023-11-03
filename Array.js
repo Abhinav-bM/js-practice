@@ -30,12 +30,18 @@
 
 // console.log(a);
 
-let myArray = ["a","b","c"]
 
+// let myArray = ["a","b","c","d"]
 
-myArray.push("d");
+// myArray.pop();
 
-console.log(myArray);
+// console.log(myArray);
+
+// let myArray = [1,2,3,4,5]
+
+// myArray.unshift(10);
+
+// console.log(myArray);
 
 
 
