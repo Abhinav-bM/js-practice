@@ -59,7 +59,53 @@
 // console.log(newArray);
 
 
+// let a = [4,3,2,1,10]
 
+// a.sort(); //used to sort array
+
+// console.log(a);
+
+
+// let a = [1,2,3,4]
+
+// a.reverse(); //use to reverse array
+
+// console.log(a);
+
+// let myObject = {
+//     name : "john",
+//     age : 45
+// };
+
+// delete myObject.name;
+
+// console.log(myObject);
+
+
+// let JohnAge = 25;
+
+// if(JohnAge === 45){
+//     console.log("you are old");   // used if and else
+// }
+// else{
+//     console.log("you are young");
+// }
+
+
+// let johnAge = 46;
+
+// if(johnAge === 45){
+//     console.log("you are old");
+// }
+// else if (johnAge >=20 && johnAge <=30){
+//     console.log("You are young");
+// }                                           // used else if
+// else if (johnAge >=10 && johnAge <=19){
+//     console.log("You are a child");
+// }
+// else{
+//     console.log("You are too old");
+// }
 
 
 
