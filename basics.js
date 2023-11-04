@@ -108,5 +108,83 @@
 // }
 
 
+/////////SWITCH statement
+
+// let fruit = "banana";
+
+// switch (fruit){
+//     case "Apple":
+//         console.log("I bought Apple");
+//         break;
+
+//     case "Orange":
+//         case "Apple":
+//             console.log("I bought Orange");
+//             break;
+    
+//     default :
+//         console.log("no fruits found");
+            
+////////loop
+
+//for loop
+//eg:
+
+// let count = 10;
+
+// for (let i=0; i<=10; i++){
+//     console.log(i);
+// }
+
+//while loop
+
+//eg:
+
+// let count = 1;
+
+// while (count <= 10){
+//     console.log(count);
+//     count ++;
+// }
+
+
+// let count = 0;
+
+// do {
+//     console.log(count);
+//     count ++;
+// }while (count <= 10);
+
+// looping array using for loop
+// let myArray = ["john","Doe","Jacob"]
+
+// for (let i = 0 ; i < myArray.length; i++){
+//     console.log(myArray[i]);
+// }
+
+
+
+
+//object looping
+// let myObj = {
+//     firstname : "john",
+//     secondName : "Doe",
+//     age : 45
+// };
+
+// for (let x in myObj){
+//     console.log(myObj[x]);
+// }
+
+
+// function myfunction(a,b){
+//    const sum = a+b;
+//     return sum;
+// } just function tryed.
+
+// console.log(myfunction(10,5));
+
+
+alert("helooo");
 
 
