@@ -280,3 +280,26 @@
 
 // console.log(Object.assign(target,source)); //
 
+
+
+//--------------Arrow function---------------------
+
+// normal
+
+// function check (){
+//     return "hello world";
+// }
+// console.log(check());
+
+//eg:arrow
+
+// check = () => "hello world";
+
+// console.log(check());
+
+//eg:arrow
+
+// sum = (a,b) => a + b ;
+
+// console.log(sum(10,12));
+
