@@ -258,3 +258,25 @@
 // person.id = 110;
 
 // console.log(person);
+
+// nested arrays and objects
+
+
+// const person = {
+//     firstName : "john",
+//     lastName : "doe",
+//     age : 15
+// }
+
+// console.log(Object.keys(person));  //return property names
+
+// console.log(Object.values(person));   // return property values
+
+// console.log(Object.entries(person));  // return an array containing all property of an keyvalue pairs 
+
+
+// const target = { a: 1, b: 2 };
+// const source = { b: 4, c: 5 };
+
+// console.log(Object.assign(target,source)); //
+
