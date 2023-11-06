@@ -191,3 +191,70 @@
 // let z = 6;
 
 // console.log(x==y);
+
+// type of operator used to find the type of a js variable
+// console.log(typeof ["fkjef","fhhfh"]);
+
+
+// function
+// function myfunction(a,b){
+//     return a*b
+// }
+
+// console.log(myfunction(1,2));
+
+//objects
+
+// const myObj = {
+//     firstName : "john",
+//     secondName : "Doe",
+//     age : 40
+// };
+
+// console.log(myObj);
+
+// console.log(myObj.firstName); //accessing object -- objectName.propertyName
+
+// console.log(myObj["secondName"]); //accessing object -- objectName["propertyName"]
+
+// object methods
+
+// const person = {
+//     firstName : "john",
+//     secondName : "doe",
+//     age : 45,
+//     fullName : function(){                         //method..............................................
+//         return this.firstName+" "+this.secondName; 
+//     }
+// };
+
+// console.log(person.fullName())
+
+// object for..in loop in object
+
+// const person = {
+//     firstName : "john",
+//     secondName : "doe",
+//     age : 45,
+// }
+
+// let text = "";
+
+// for (let x in person){
+//     text = text + person[x]+ " ";
+// }
+
+// console.log(text);
+
+
+// adding new properties
+
+// const person = {
+//     firstName : "john",
+//     secondName : "doe",
+//     age : 45
+// }
+
+// person.id = 110;
+
+// console.log(person);
