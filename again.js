@@ -338,4 +338,16 @@ const a = [1,2,3,4,5,6,7,8,9]
 // }
 // while(i < 1);
 
+//for vs while comparison
+// const cars = ["bmw", "Audi", "Porsche", "Bugatti"];
+// let i = 0;
+// for(; cars[i]; i++){
+//     console.log(cars[i]);
+// }
+// let i = 0;
+// while(cars[i]){
+//     console.log(cars[i]);
+//     i++;
+// }
+
 
