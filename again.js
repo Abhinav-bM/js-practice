@@ -144,13 +144,198 @@
 
 // console.log(myCar);
 
+// type of operator
+
+// const x = 1200;
+
+// console.log(typeof(x));
 
 
-            
+// undefined - - a variable without a value is undefined
+// let x;
+
+// console.log(x);
+
+
+// conditional statements
+
+// const x = 5;
+
+// const y = 5;
+
+// const z = x + y;
+
+// if(z === 10){
+//     console.log("condition is correct");
+// }
+
+// const hour = new Date().getHours();
+// let g;
+
+// if(hour < 15){
+//      g = "yes";
+// }
+// else{
+//      g = "no";
+// }
+
+// console.log(g);
+
+// const hour  = new Date().getTime();
+
+// let check;
+
+// if(hour < 10){
+//     check = "good morning";
+// }
+// else if (hour < 12){
+//     check = "good day";
+// }
+// else{
+//     check = "good evening";
+// }
+
+// console.log(check);
+
+// Switch - The switch statement is used to perform different actions based on different conditions.
+
+// let day;
+/*
+switch(new Date().getDay()){
+    case  0:
+        day = "sunday";
+        break;
+    
+    case 1 :
+        day = "monday";
+        break;
+    
+    case 2 :
+        day = "tuesday";
+        break;
+    
+    case 3 :
+        day = "wednesday";
+        break;
+        
+    case 4 :
+        day = "thursday";
+        break;
+    
+    case 5 :
+        day = "friday";
+        break;
+     
+    case 6 :
+        day = "saturday";    
+}
+
+
+console.log(day);*/
+
+// default -keyword check
+
+// let day;
+
+// switch(new Date().getDay()){
+//     default:
+//         day = "Todayyy";
+//         break;
+//     case 0 :
+//         day = "sunday";
+//         break;
+
+//     case 1 :
+//         day = "thursday";
+//         break;
+    
+    
+// }
+
+
+// console.log(day);
 
 
 
 
 
+//-----------Loop----------
+
+// for loop
+
+const a = [1,2,3,4,5,6,7,8,9]
+
+// for (i = 0; i < a.length; i++){
+//     console.log(a[i]);
+// }
+
+// loop scope 
+// using var in a loop    // this is not possible with let 
+
+// var i = 5;
+
+// for (i = 0; i < 10; i++){
+
+// }
+
+// console.log(i); 
+
+//for in
+
+// for in over objects
+// const person = {fname:"John", lname:"Doe", age:25}
+
+// for (let x in person){
+//     console.log(person[x]);
+// }
+
+// const check = {
+//     fname : "hello",
+//     sname : "hh"
+// }
+                                    
+// for (let x in check ){
+//     co+nsole.log(check[x]);
+// }
+
+// for in over arrays
+
+// const check = [1,2,3,4,5,6,7,8,9,0]
+
+// for (let x in check){
+//     console.log(check[x]);
+// }
+
+// for of
+// const cars = ["bmw", "audi", "porsche"]
+
+// let out;
+
+//for/of over an array
+// for(let x of cars){
+//     console.log(x);
+// }
+
+//for/of over a string
+// const temp = "Checkingforof";
+// for (let x of temp){
+//     console.log(x);
+// }
+
+//while-- loop--------------------
+// let i = 1;
+// while(i < 10){
+//     console.log("while.loop"+i);
+//     i++;
+// }
+
+// do while
+// let i = 0;
+
+// do{
+//     console.log("welcome" + i);
+//     i++;
+// }
+// while(i < 1);
 
 
