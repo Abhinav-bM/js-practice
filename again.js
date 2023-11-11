@@ -558,11 +558,65 @@ console.log(day);*/
 // }
 
 
-const myObj = {
-    firstName : "Abhinav",
-    secondName : "B manoj",
-    age : 22,
-    fullName : function(){return this.firstName+ " "+this.secondName}
-}
+// const myObj = {
+//     firstName : "Abhinav",
+//     secondName : "B manoj",
+//     age : 22,
+//     fullName : function(){return this.firstName+ " "+this.secondName}
+// }
 
-console.log(myObj.fullName());
+// console.log(myObj.fullName());
+
+// myObj.name = function(){
+//     return this.firstName + " " + this.secondName;
+// }
+
+// console.log(myObj.name());
+
+// const person = {
+//     firstName : "Abhinav",
+//     secondName : "B Manoj",
+//     age : 22
+// }
+
+// for(let x in person){      // looping through an object
+//     console.log(person[x]);
+// }
+
+// console.log(Object.values(person));  // displaying an object using    ---object.values(objectName)---  // the output is type is array
+
+// console.log(JSON.stringify(person));
+
+
+// -----String--methods------
+/// length 
+// let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// console.log(text.length);
+
+// slice()
+// let text  = "Apple, Banana, Kiwi";
+// console.log(text.slice(7, 13));
+// console.log(text.slice(-12));
+// console.log(text.slice(-10, -3));
+
+
+
+//----------INTERMEDIATE LEVEL-------------
+//Template Literals
+// let text = `'heyy' "sjknffklf"`;   // can use both single and double quotes when using back ticks
+
+// let text = `lkdnvdkl
+// kdvndfkvmkdnv                 
+// dfklvnd`                // can write multiline strings
+
+// let firstName = "john";
+// let secondNAme = "Doe"
+// let text = `fullName is : ${firstName}, ${secondNAme}`   // can use varible inside string because of template literals
+
+// let x = 10;
+// let y = 12.2;
+// let text = `total : ${ x + y }`                             // can add expressions
+// console.log(text);
+
+
+// 
