@@ -649,3 +649,31 @@ console.log(day);*/
 
 // console.log(z);
 
+
+// IIFE
+
+// (function() { 
+//     console.log("Welcome to GFG!"); 
+// })(); 
+
+// stirng methods
+
+let x = "   abhinav b   ";
+let a = "5";
+// let y = x.length;
+// let y = x.slice(1,7)
+// let y = x.substring(1, 7);
+// let y = x.substr(1, 5);
+// let y = x.replace(" b", " b Manoj");
+// let y = x.replaceAll("b", "z");
+// let y = x.toUpperCase();
+// let y = x.toLowerCase();
+// let y = x.concat(a);
+// let y = x.trim();
+// let y = x.trimStart()
+// let y = x.trimEnd();
+// let y = a.padStart(4, "x");
+// let y = a.padEnd(5,"0");
+
+
+console.log(y);
