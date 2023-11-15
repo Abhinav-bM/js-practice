@@ -658,8 +658,8 @@ console.log(day);*/
 
 // stirng methods
 
-let x = "   abhinav b   ";
-let a = "5";
+// let x = "abhinav b";
+// let a = "5";
 // let y = x.length;
 // let y = x.slice(1,7)
 // let y = x.substring(1, 7);
@@ -674,6 +674,12 @@ let a = "5";
 // let y = x.trimEnd();
 // let y = a.padStart(4, "x");
 // let y = a.padEnd(5,"0");
+// let y = a.charAt(0);
+// let y = x.split()
+// console.log(y);
 
 
-console.log(y);
+let str = "Hello world!";
+// console.log(str.length);
+// console.log(str.toUpperCase());
+console.log(str.toLowerCase());

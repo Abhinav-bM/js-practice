@@ -3,7 +3,7 @@
 //   lastNme: "jith",
 //   address: {
 //     street: "123  street",
-//     place: "koakkatil",
+//     place: "kakkatil",
 //     pin: 232432,
 //   },
 //   hobbies: ["painting ,reading ,jumbing"],
@@ -23,3 +23,26 @@
 // },0)
 
 // console.log(reduce);
+
+
+// let fruits = ["apple", "orange", "pappaya"];
+
+// let drinks = ["water", "sprite", "redbull"];
+
+// // let a = fruits.concat(drinks);
+// let a = drinks.slice(1,2)
+
+
+// console.log(a);
+
+// madam
+
+// function checkpalidrome (text){
+
+//     for (let i = 0; i<=text.length/2; i++){
+//         if (text[])
+//     }
+
+    
+// }
+
