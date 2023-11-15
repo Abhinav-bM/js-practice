@@ -620,3 +620,32 @@ console.log(day);*/
 
 
 // 
+
+// (function (){
+//     console.log("hello");
+// })();
+
+// (()=> {
+//     console.log("checking")
+// })();
+
+// (function selfInvoke(){
+//     console.log("SelfInvoked");
+// })();
+
+
+//    Rest Operator
+// function restSum(...nums){
+//     console.log(nums.reduce((total, nums) => total + nums ));
+// }
+
+// restSum(1,2,3,4,5);         // we can pass idefinite numbers of arguments if 
+
+//  spread Operator
+// let x = [1,2,3,4,5,6]
+// let y = [7,6,9]
+
+// let z = [...x, ...y, 10, 11, 12, 13, 14, 15]
+
+// console.log(z);
+
