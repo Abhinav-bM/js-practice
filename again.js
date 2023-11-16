@@ -678,8 +678,34 @@ console.log(day);*/
 // let y = x.split()
 // console.log(y);
 
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-let str = "Hello world!";
+// slice------------------------------
+
+// let str = "Hello, world!";
 // console.log(str.length);
 // console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+// console.log(str.toLowerCase());
+// console.log(str.slice(0, 5)); 
+// console.log(str.slice(7));
+// console.log(str.slice(-6));
+// console.log(str.slice(-13, -8));
+
+
+// substring----------------------------
+
+// let x = "Hello, World";
+// console.log(x.substring(-5, 5));
+
+
+//substr--------------------------------
+// let x = "Hello, World!";
+// console.log(x.substr(7,4));
+
+// replace -----------------------------
+let x = "Hello Hello world";
+
+let y = x.replace("Hello", "Hey");
+
+console.log(y);
+
