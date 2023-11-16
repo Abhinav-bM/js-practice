@@ -703,9 +703,251 @@ console.log(day);*/
 // console.log(x.substr(7,4));
 
 // replace -----------------------------
-let x = "Hello Hello world";
+// let x = "Hello Hello world";
+// let y = x.replace("Hello", "Hey");
+// console.log(y);
 
-let y = x.replace("Hello", "Hey");
+// replaceAll --------------------------
+// let x  = "Hello Hello World";
+// let y = x.replaceAll("Hello", "Hey")
+// console.log(y);
 
-console.log(y);
+// toUpperCase -------------------------
+// let x = "hello world";
+// let y = x.toUpperCase();
+// console.log(y);
+
+// toLowerCase--------------------------
+// let x = "HELLO WORLD";
+// let y = x.toLowerCase();
+// console.log(y);
+
+// concat ------------------------------
+// let x = "Hello";
+// let y = "world";
+// let z = x.concat(" "+y);
+// console.log(z);
+
+// trim ---------------------------------
+// let x = "   hello World  ";
+// let y = x.trim();
+// console.log(y);
+
+// trimStart ----------------------------
+// let x = "   Hello World";
+// let y = x.trimStart();
+// console.log(y);
+
+// trimEnd ------------------------------
+// let x = "Hello World  ";
+// let y = x.trimEnd();
+// console.log(y);
+
+// padStart ------------------------------
+// let x = "";
+// let y = x.padStart(5,0);
+// console.log(y);
+
+// padEnd --------------------------------
+// let x = "H";
+// let y = x.padEnd(6, "0");
+// console.log(y);
+
+// charAt --------------------------------
+// let x = "hello World!";
+// let y = x.charAt(0);
+// console.log(y);
+
+// charCodeAt ----------------------------
+// let x = "Hello World!";
+// let y = x.charCodeAt(3);
+// console.log(y);
+
+// split ---------------------------------
+// let x = "abhinav,jeevan,rohith,Kunjoottan";
+// let  y = x.split(",");
+// console.log(y);
+
+// ----------------------------- string search Methods----------------------------------
+
+// indexOf----------------------
+// let x = "Abhinav B Manoj";
+// let y = x.indexOf("B");
+// console.log(y);
+
+// lastIndexOf------------------
+// let x = "Hello, how are you? I am fine, thank you.";
+// let y = x.lastIndexOf("am");
+// console.log(y);
+
+// search ---------------------
+// let x = "Hello, how are you?";
+// let y = x.search("how");
+// console.log(y);
+
+//  match ---------------------
+// let x = "The quick brown fox jumps over the lazy dog";
+// let y = x.match(/o/g);
+// console.log(y);
+
+// matchAll--------------------
+// let x = "The quick brown fox jumps over the lazy dog";
+// let y = x.matchAll(/[a-z]/g);
+// for(let match of y){
+//     console.log(match);
+// }
+
+// includes------------------
+// let x = "hey hello world";
+// let y = x.includes("hello");
+// console.log(y);
+
+// startWith----------------
+// let x = "hey hello world";
+// let y = x.startsWith("hello");
+// console.log(y);
+
+// endWith-----------------
+// let x = "hey hello world";
+// let y = x.endsWith("d");
+// console.log(y);
+
+
+//--------------------- Array methods ----------------------------------
+// toString---------------
+// let x = ["apple", "orange", "pineapple"];
+// console.log(x.toString());
+
+// length----------------
+// let x = [1,2,3,4,5,6,7,8];
+// let y = x.length;
+// console.log(y);
+
+// pop-------------------
+// let x = ["abhinav","jeevan","arun"];
+// let y = x.pop();
+// console.log(y);
+
+// push------------------
+// let x = ["abhinav", "arun", "jeevan"];
+// x.push("rohith");
+// console.log(x);
+
+// shift------------------
+// let x = ["Abhinav","jeevan","rohit","hamim"];
+// let y =  x.shift();
+// console.log(x);
+
+// unshift-----------------
+// let x = ["Abhinav","jeevan","rohit","hamim"];
+// x.unshift("Arun");
+// console.log(x);
+
+// delete------------------
+// let x = ["Abhinav","jeevan","rohit","hamim"];
+// delete x[0];
+// console.log(x);
+
+// join-------------------
+// let x = ["abhi","rohith","hamim"];
+// let y = x.join(", ");
+// console.log(y);
+
+// concat--------------
+// let x = [1,2,3,4,5];
+// let y = [6,7,8,9];
+// let merged = x.concat(y);
+// console.log(merged);
+
+// let x = [1, 2, [3, 4]];
+// let flattened = x.flat();
+// console.log(flattened);
+
+// slice---------------
+// let x = [1,2,3,4,5,6];
+// let y = x.slice(1,5);
+// console.log(y);
+
+// splice---------------
+//remove
+// let x = [1,2,3,4,5];
+// let y = x.slice(1,3);
+// console.log(y);
+//add
+// let x = [1,2,3,4,5]
+// x.splice(2,0,6,7);
+// console.log(x);
+// removed-add
+// let x = [1,2,3,4,5];
+// x.splice(1,2,0,0);
+// console.log(x);
+
+// sort ---------
+// let x = ["a","b","e","c","f","d"];
+// console.log(x.sort());
+
+// let x = [1,3,5,6,7,5,43,2,2];
+// function sortnum(x){
+//     return x.sort(function(a,b){return b-a})[1];
+// }
+// console.log(sortnum(x));
+
+// let x = [25,100,250,35];
+// x.sort(function(a,b){return b-a});
+// console.log(x);
+
+//forEach
+// i taked array element
+// let numbers = [1,2,3,4,5,6];
+// let sum = 0;
+// numbers.forEach(function(number){
+//     return sum += number;
+// })
+
+// console.log(sum);
+
+// it taked array index
+// let x = [1,2,3,4,5,6];
+// x.sort(function(element,index){
+//     console.log(`index ${index} : ${element}`);
+// });
+
+// it takes element,index,array
+// let x = [1,2,3,4,5,6,7];
+// x.forEach(function(element,index,array){
+//     console.log(`index ${index} : ${element} : array:length${array.length}`);
+// })
+
+
+//--------------for/In---------------
+// for/in iterate through an object properties
+// const object = {
+//     a : 1,
+//     b : 2,
+//     c : 3
+// }
+// for (let property in object){
+//     console.log(object[property]);
+// }
+
+// let object = {
+//     name : "john",
+//     age : 30,
+//     gender : "male"
+// }
+
+// for(let key in object){
+//     console.log(`${key} : ${object[key]}`);
+// }
+
+//-------for/in------------------
+// for in iterates through an ietrable object
+// let array = [1,2,3,4,5,6];
+// for(let i of array){
+//     console.log(i);
+// }
+// let x = "Abhinav";
+// for(let i of x){
+//     console.log(i);
+// }
 
