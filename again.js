@@ -1150,10 +1150,13 @@ function checkvalue (num){
       }
     });
   }
-
-
   async function checking(){
     try{
-      
+      await checkvalue(11);
+      console.log("success");
+    }
+    catch{
+      console.log("djhbvdj");
     }
   }
+  checking();

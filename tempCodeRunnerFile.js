@@ -1,1 +1,3 @@
-let y = x.pop();
+catch{
+      console.log("djhbvdj");
+    }
