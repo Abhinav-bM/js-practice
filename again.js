@@ -1140,23 +1140,68 @@ console.log(day);*/
 // checkAsync();
 
 
+// function checkvalue (num){
+//     return new Promise ((resolve, reject) => {
+//       if (num > 10){
+//         resolve("value is greater than 10")
+//       }
+//       else{
+//         reject("value is less than 10")
+//       }
+//     });
+//   }
+//   async function checking(){
+//     try{
+//       await checkvalue(11);
+//       console.log("success");
+//     }
+//     catch{
+//       console.log("djhbvdj");
+//     }
+//   }
+//   checking();
+
+// function checkvalue (num){
+//   return new Promise ((resolve, reject)=>{
+//     if(num > 10){
+//       resolve("greater than ten")
+//     }
+//     else{
+//       reject("less than ten")
+//     }
+//   })
+// }
+
+// checkvalue(1)
+// .then((resolve)=>{
+//   console.log("success");
+// })
+// .catch((reject)=>{
+//   console.error("fail");
+// })
+
+
+
+
 function checkvalue (num){
-    return new Promise ((resolve, reject) => {
-      if (num > 10){
-        resolve("value is greater than 10")
-      }
-      else{
-        reject("value is less than 10")
-      }
-    });
-  }
-  async function checking(){
-    try{
-      await checkvalue(11);
-      console.log("success");
+  return new Promise ((resolve, reject)=>{
+    if(num > 10){
+      resolve("greater than ten")
     }
-    catch{
-      console.log("djhbvdj");
+    else{
+      reject("less than ten")
     }
+  })
+}
+
+async function myasync (){
+  try{
+    await checkvalue(11);
+    console.log("success");
   }
-  checking();
+  catch{
+    console.log("check failed");
+  }
+}
+
+myasync();
