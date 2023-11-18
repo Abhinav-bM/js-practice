@@ -951,3 +951,209 @@ console.log(day);*/
 //     console.log(i);
 // }
 
+
+
+
+// function x (){
+//     setTimeout(function(){
+//         console.log("heyyyy");
+//     },2000);
+// };
+
+// x();
+
+// function v (){
+//     setTimeout(function x (){
+//         console.log("dkjvnvdflkjvd");
+//     },5000);
+// }
+// v();
+
+// setTimeout(function () {
+//     console.log("timer");
+// }, 5000);
+
+// function x (y){
+//     console.log("x");
+//     y();
+// }
+// x(function y(){
+//     console.log("y");
+// })
+
+// function check (){
+//     console.log("checking higher Order");
+// }
+// function x (check){
+//     check();
+// }
+// x(check);
+
+// map()
+// let arr  = [2,4,6,8];
+
+// function triple (x){
+//     return x*3;
+// }
+
+// function binary (x){
+//     return x.toString();
+// }
+
+// let output  = arr.map(binary);
+
+// console.log(output);
+
+// filter()
+// let x = [1,2,3,4,5,6,7,8,9];
+
+// function oddNum(x){
+//     return x % 2;
+// }
+
+// let greaterthan4 = (x) => x > 4;
+ 
+// let outPut = x.filter(greaterthan4);
+// console.log(outPut);
+
+// reduce ()
+// let x = [1,2,3,4,5,6,6,7,8,9];
+// function maxofArray(arr){
+//     let max = arr[0];
+//     for(let i = 0; i<arr.length; i++){
+//         if(arr[i] > max){
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+
+// console.log(maxofArray(x));
+
+// used reduce
+// let max = x.reduce(function(acc, cur){
+//     if (cur > acc){
+//         acc = cur;
+//     }
+//     return acc;
+// },0);
+// console.log(max);
+
+// map() eg:
+
+// const persons = [
+//     { firstName: "Ajay", secondName: "John", age: 25},
+//     { firstName: "abhiav", secondName: "John", age: 21},
+//     { firstName: "rahul", secondName: "John", age: 20},
+//     { firstName: "jeevan", secondName: "John", age: 25}
+// ];
+
+// let fullname = persons.map(x => x.firstName+ " "+ x.secondName);
+
+// console.log(fullname);
+
+
+// setTimeout(function(){
+//   console.log("hello world");
+// }, 1000);
+
+// for(let  i = 0; i <= 100000; i++){
+//   console.log("heyyy");
+// // };
+
+
+// function checkvalue (num){
+//   return new Promise ((resolve, reject) => {
+//     if (num > 10){
+//       resolve("value is greater than 10")
+//     }
+//     else{
+//       reject("value is less than 10")
+//     }
+//   });
+// }
+
+// checkvalue(11)
+// .then((resolve) => {
+//   console.log("success");
+// })
+// .catch((reject) => {
+//   console.error("less than 10");
+// })
+
+// function checknum (num){
+//   return new Promise((resolve, reject)=>{
+//     if(num > 5){
+//       resolve("success")
+//     }
+//     else{
+//       reject("fail")
+//     }
+//   })
+
+// }
+
+// checknum(5)
+// .then((resolve)=>{
+//   console.log(resolve);
+// })
+// .catch((reject)=>{
+//   console.log(reject);
+// })
+
+// function checknum (num){
+//   return new Promise ((resolve, reject)=>{
+//     if(num == 10){
+//       resolve("it is ten")
+//     }
+//     else{
+//       reject("it is not ten")
+//     }
+//   })
+// }
+
+// checknum(0)
+// .then((resolve)=>{
+//   console.log("success");
+// })
+// .catch((reject)=>{
+//   console.error("fail");
+// })
+
+
+
+// function add (num1, num2){
+//   return new Promise((resolve)=> {
+//     resolve(num1 + num2);
+//   })
+// }
+
+// async function checkAsync (){
+//   try{
+//     let result = await add(5,5);
+//     console.log(`result is ${result}`);
+//   }
+//   catch(error){
+//     console.error("error");
+//   }
+// }
+// checkAsync();
+
+
+function checkvalue (num){
+    return new Promise ((resolve, reject) => {
+      if (num > 10){
+        resolve("value is greater than 10")
+      }
+      else{
+        reject("value is less than 10")
+      }
+    });
+  }
+
+
+  async function checking(){
+    try{
+      
+    }
+  }
