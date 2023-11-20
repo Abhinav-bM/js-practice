@@ -1183,25 +1183,183 @@ console.log(day);*/
 
 
 
-function checkvalue (num){
-  return new Promise ((resolve, reject)=>{
-    if(num > 10){
-      resolve("greater than ten")
-    }
-    else{
-      reject("less than ten")
-    }
-  })
-}
+// function checkvalue (num){
+//   return new Promise ((resolve, reject)=>{
+//     if(num > 10){
+//       resolve("greater than ten")
+//     }
+//     else{
+//       reject("less than ten")
+//     }
+//   })
+// }
 
-async function myasync (){
-  try{
-    await checkvalue(11);
-    console.log("success");
-  }
-  catch{
-    console.log("check failed");
-  }
-}
+// async function myasync (){
+//   try{
+//     await checkvalue(11);
+//     console.log("success");
+//   }
+//   catch{
+//     console.log("check failed");
+//   }
+// }
 
-myasync();
+// myasync();
+
+
+// function greet(name = 'Guest', greeting = 'Hello') {
+//   console.log(`${greeting}, ${name}!`);
+// }
+
+// greet("foood", "drinks");
+
+
+// function checkDefault (num1 = 1, num2 = 3){
+//   console.log(`sum = ${num1 * num2}`);
+// }
+// checkDefault(10, 10);
+
+// let array1 = [1,2,3,4,5,6]
+// let array2 = [7,8,9]
+// let check = [...array1,...array2]
+// console.log(check);
+
+// function sumOfArray (...input){
+//    return input.reduce((acc, curr)=>{
+//        return acc + curr;
+//     },0)
+// }
+// let input = [1,2,3,4,5];
+// console.log(sumOfArray(...input));
+
+
+// function check () {
+//     var a = 10;
+//     let b = 20;
+//     const c = 40;
+// }
+
+// console.log(a);
+
+// const person = {
+//     first:"jijit",
+//     age:27,
+//     place:"dfhjds"
+// }
+// console.log(Object.entries(person));
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+
+
+
+
+// function mypromise (a,b){
+//     return new Promise((resolve, reject)=>{
+//         if (a > b){
+//             resolve("A is bigger than b")
+//         }
+//         else{
+//             reject("A is lesss than b")
+//         }
+//     })  
+// }
+
+// mypromise(2,1)
+// .then((resolve)=>{
+//     console.log("successfull");
+// })
+// .catch((reject)=>{
+//     console.log("fail");
+// })
+
+// const myPromise = new Promise ((resolve, reject)=>{
+//     setTimeout(()=>{
+//         const success = true;
+//         if(success){
+//             resolve("Data Fetched")
+//         }
+//         else{
+//             reject ("failed data fetching")
+//         }
+//     }, 2000)
+// })
+
+// myPromise
+// .then((resolve)=>{
+//     console.log("successful");
+// })
+// .catch((reject)=>{
+//     console.error("error");
+// })
+
+
+
+
+// function mypromise (){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             resolve("Rejected after 1 second")
+//         },1000);
+//     });
+// }
+
+// async function checking (){
+//     try{
+//         const result = await mypromise()
+//         console.log("success");
+//     }
+//     catch (reject){
+//         console.log("fail");
+//     }
+// }
+
+// checking();
+
+// const myPromise = new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         const succes = true;
+//         if (succes){
+//             resolve("Success")
+//         }
+//         else{
+//             reject("failed")
+//         }
+//     },5000)
+// });
+
+// // console.log(myPromise);
+
+// myPromise
+// .then((resolve)=>{
+//     console.log("Promise Success");
+// })
+// .catch((reject)=>{
+//     console.log("promise rejected");
+// })
+
+
+// function checkAsync (num){
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {
+//             const success = false;
+//             if(success){
+//                 resolve("resolved")
+//             }
+//             else{
+//                 reject("Rejected")
+//             }
+//         }, 1000);
+//     })
+// }
+
+// async function check (){
+//     try{
+//         const result = await checkAsync()
+//         console.log(result);
+//     }
+//     catch(reject){
+//         console.log(reject);
+//     }   
+// }
+
+// check();
