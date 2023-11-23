@@ -1406,23 +1406,35 @@ console.log(day);*/
 
 // console.log(b);
 
-let person1 = {
-    firstName : "Akshay",
-    lastName : "saini",
-}
+// let person1 = {
+//     firstName : "Akshay",
+//     lastName : "saini",
+// }
 
 
 
-let fullName = function (state, age){
-    console.log(this.firstName + " " + this.lastName + " " + state + " " + age);
-}
+// let fullName = function (state, age){
+//     console.log(this.firstName + " " + this.lastName + " " + state + " " + age);
+// }
 
 
-let person2 = {
-    firstName : "Sachin",
-    lastName : "Tendulkar"
-}
+// let person2 = {
+//     firstName : "Sachin",
+//     lastName : "Tendulkar"
+// }
 
-fullName.apply(person2, ["kerala", 55]);
+// fullName.apply(person2, ["kerala", 55]);
+
+// let array = [1,2,3,4,5,6,7,8,9];
+
+// let mapedArray = array.map( (a) => a * 5 );
+ 
+// let filterdArray = array.filter( (a) => a > 5)
+
+// let reducedsum = array.reduce( (acc, curr) => acc + curr )
+
+// console.log(mapedArray);
+// console.log(filterdArray);
+// console.log(reducedsum);
 
 
