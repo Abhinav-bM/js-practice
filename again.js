@@ -1363,3 +1363,66 @@ console.log(day);*/
 // }
 
 // check();
+
+
+// function makeFun(){
+
+//     let name = "Abhinav";
+
+//     function logName (){
+//         console.log(name);
+//     }
+    
+//     return logName;
+// }
+
+// let x = makeFun();
+ 
+// x();
+
+
+
+// let x = 10;
+
+// function check (){
+
+//     function b(){
+//         console.log(x);
+//     }
+
+//     return b();
+// }
+
+// check();
+
+
+// let a = "abhinav";
+// console.log(a.charCodeAt("a"));
+
+
+// let a = [1,2,3,4,5];
+
+// let b = a.split('');
+
+// console.log(b);
+
+let person1 = {
+    firstName : "Akshay",
+    lastName : "saini",
+}
+
+
+
+let fullName = function (state, age){
+    console.log(this.firstName + " " + this.lastName + " " + state + " " + age);
+}
+
+
+let person2 = {
+    firstName : "Sachin",
+    lastName : "Tendulkar"
+}
+
+fullName.apply(person2, ["kerala", 55]);
+
+
