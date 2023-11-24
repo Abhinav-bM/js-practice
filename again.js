@@ -1425,7 +1425,9 @@ console.log(day);*/
 
 // fullName.apply(person2, ["kerala", 55]);
 
-// let array = [1,2,3,4,5,6,7,8,9];
+let array = [1,2,3,4,5,6,7,8,9,10];
+
+let array2 = ["a","c","d","b","g","f","e"];
 
 // let mapedArray = array.map( (a) => a * 5 );
  
@@ -1437,4 +1439,77 @@ console.log(day);*/
 // console.log(filterdArray);
 // console.log(reducedsum);
 
+// let sorted = array.sort((a,b)=>a-b);
+// let stringSorted = array2.sort();
 
+// console.log(sorted);
+// console.log(stringSorted);
+
+// array.forEach((element)=> console.log(element))
+
+// let found = array.find((number) => number > 5)
+// console.log(found);
+
+
+// function restCheck (...numbers){
+//     return numbers.reduce((acc, curr) => acc + curr , 0 )
+// }
+
+// console.log(restCheck(10,10,10,1));
+
+
+// let arr1 = [1,2,3,4,5];
+// let arr2 = [6,7,8,9];
+// let joinedArr = [...arr1, ...arr2];
+
+// console.log(joinedArr);
+
+// function calcSum (x, y, z){
+//     console.log(x + y + z);
+// }
+
+// let arr = [1,2,3];
+
+// calcSum(...arr);
+
+// let obj1 = { a : 20, b : 30}
+// let obj2 = { c : 40, d : 50}
+
+// let mergedObj = {...obj1, ...obj2};
+
+// console.log(mergedObj);
+
+// let ogArr = [1,2,3,4,5]
+// let copyArr = [...ogArr];
+// console.log(copyArr);
+
+// function print (firtArgs, ...secondArgs){
+//     console.log("first Arg is" + " " + firtArgs);
+//     console.log("Second Args is" + secondArgs);
+// }
+
+// print("hello", "hhh", 3);
+
+// array methods
+
+let arr = [1,2,3,4,5,6,7]
+
+// arr.pop();
+
+// arr.push(8)
+
+// arr.shift()
+
+// arr.unshift(0)
+
+// let sliced = arr.slice(0,3)
+
+// arr.splice(0,0,9,10)
+
+// let maped = arr.map((element) => element * 2)
+
+// let filtered = arr.filter((elements)=> elements > 2 )
+
+let reducedsum = 
+
+console.log(filtered);
