@@ -1523,3 +1523,19 @@ let array2 = ["a","c","d","b","g","f","e"];
 // let maped = arr.map((a)=> a * 2);
 
 // console.log(maped);
+
+// closure
+
+function printString (){
+    let text = "Checking Closure";
+
+    function printText (){
+        console.log(text);
+    }
+
+    return printText;
+
+}
+
+let checkClosure = printString();
+checkClosure();
