@@ -1526,16 +1526,24 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 // closure
 
-function printString (){
-    let text = "Checking Closure";
+// function printString (){
+//     let text = "Checking Closure";
 
-    function printText (){
-        console.log(text);
-    }
+//     function printText (){
+//         console.log(text);
+//     }
 
-    return printText;
+//     return printText;
 
-}
+// }
 
-let checkClosure = printString();
-checkClosure();
+// let checkClosure = printString();
+// checkClosure();
+
+
+// function check (num){
+//    return num > 10 ? true : false;
+// }
+
+
+// console.log(check(11));
