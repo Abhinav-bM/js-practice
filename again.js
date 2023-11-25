@@ -1492,7 +1492,7 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 // array methods
 
-let arr = [1,2,3,4,5,6,7]
+// let arr = [1,2,3,4,5,6,7]
 
 // arr.pop();
 
@@ -1510,6 +1510,16 @@ let arr = [1,2,3,4,5,6,7]
 
 // let filtered = arr.filter((elements)=> elements > 2 )
 
-let reducedsum = 
+// let reducedsum = arr.reduce((acc, curr)=>acc+curr)
 
-console.log(filtered);
+// arr.forEach((numbers)=> {
+//     console.log(numbers * 2);
+// })
+
+// arr.find((elements)=> console.log(elements > 2));
+
+// let arr = [1,2,3,4,5,6,];
+
+// let maped = arr.map((a)=> a * 2);
+
+// console.log(maped);
