@@ -1630,5 +1630,154 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 // console.log(checkEven(2, 0));
 
+// function division (a, b){
+//     try{
+//         if(b === 0){
+//             throw new Error ('Division by zero is not possible')
+//         }
+//         return a / b;
+//     }
+//     catch(error){
+//         return error.message;
+//     }
+// }
+
+// division(1,0)
+
+
+// function checkOdd(number){
+//     return new Promise((resolve, reject)=>{
+//         if(number % 2 !== 0){
+//             resolve("it is odd")
+//         }
+//         else{
+//             reject("it is not odd")
+//         }
+//     })
+// }
+
+// checkOdd(3)
+// .then((resolve)=>{
+//     console.log(resolve);
+// })
+// .catch((reject)=>{
+//     console.log(reject);
+// })
+
+// function sum (a, b){
+//     return new Promise ((resolve, reject)=>{
+//         const Added = a + b;
+//         if(isNaN(Added)){
+//             reject("Error")
+//         }
+//         else{
+//             resolve(Added)
+//         }
+//     })
+// }
+
+// async function asyncAddition (){
+//     try{
+//         let added = await sum("ekjf",2)
+//         console.log(added);
+//     }
+//     catch(error){
+//         console.error("Error")
+//     }
+// }
+
+// asyncAddition();
+
+
+// let a = "hey-hello-ok";
+
+// let b = a.split("-")
+
+// console.log(b); 
+
+// destructuring 
+
+// let array1 = [1,2,3,4,5]
+// let myObj = {
+//     firstName : "Abhinav",
+//     lastName : "B Manoj"
+// }
+// // const [one, two, ...rest] = array1;
+// const { firstName : A, lastName} = myObj
+
+// console.log(A);
+
+// function* generatorCheck (){
+
+// }
+
+// immediately invoked function expression
+// (function checkOdd (){
+//     console.log(`helooo`);
+// })();
+
+// let person = {
+//     name : "Abhinav",
+//     age : 22,
+//     qualification : "diploma"
+// }
+
+// let {name: N, age : num, qualification : q} = person;
+
+// console.log(q);
+
+// let fruits = ["apple", "Orange"]
+
+// let [one, two] = fruits
+
+// console.log(two);
+
+// Generator functions
+
+// function* checkOdd (n){
+//     for(i = 1; i<=n ; i++){
+//         yield i ;
+//     }
+// }
+
+// let checkGen = checkOdd(2);
+
+function checkGreater (num) {
+        return new Promise ((resolve, reject)=>{
+            setTimeout(()=>{
+                if(num + 10){
+                    resolve("Greaterthan")
+                }
+                else{
+                    reject("Less than")
+                }
+            })
+        })
+}
+
+
+// checkGreater(1)
+// .then((resolve)=>{
+//     console.log(resolve);
+// })
+// .catch((reject)=>{
+//     console.log(reject);
+// })
+
+async function checkAsy (){
+    try{
+        let result = await checkGreater(1)
+        console.log(result);
+    }
+    catch(error){
+        console.log(error.message);
+    }
+}
+
+
+
+
+
+
 
 
