@@ -1615,18 +1615,20 @@ let array2 = ["a","c","d","b","g","f","e"];
 //     console.log(reject);
 // })
 
-function checkEven (a, b){
+// function division (a, b){
    
-    try{
-        if(b === 0){
-            throw new Error("division by zero is not possible")
-        }
-        return a / b;
-    }
-    catch (error){
-        return  error.message;
-    }
-}
+//     try{
+//         if(b === 0){
+//             throw new Error("division by zero is not possible")
+//         }
+//         return a / b;
+//     }
+//     catch (error){
+//         return  error.message;
+//     }
+// }
 
-console.log(checkEven(2, 0));
+// console.log(checkEven(2, 0));
+
+
 
