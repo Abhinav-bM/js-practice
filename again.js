@@ -1547,3 +1547,86 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 
 // console.log(check(11));
+
+// function check (a){
+//     try{
+//         if (a === 0){
+//             throw new Error("fail...")
+//         }
+    
+//     return a + 10;
+//     }
+
+//     catch(error){
+//         return  error.message;
+//     }
+// }
+
+// console.log(check(1));
+
+// let myPromise = new Promise ((resolve, reject)=> {
+//     setTimeout(()=>{
+//         // resolve("promise resolved")
+//         reject (new Error('promise rejected'))
+//     },2000)
+// });
+
+// myPromise
+// .then((result)=>{
+//     console.log(result);
+// })
+// .catch((error)=>{
+//     console.error(error.message)
+// })
+
+// let myPromise = new Promise ((resolve, reject)=>{
+//     setTimeout(()=>{
+//         // resolve('promse Resolved')
+//         reject(new Error ('promise rejected'))
+//     },2000)
+// })
+
+
+// myPromise
+// .then((result)=>{
+//     console.log(result);
+// })     
+// .catch((error)=>{
+//     console.error('Error :' + " " + error.message)
+// }) 
+
+// function checkOdd (num){
+    
+//     return new Promise ((resolve, reject)=>{
+//         if (num % 2 !== 0){
+//             resolve('odd')
+//         }
+//         else{
+//             reject("not odd")        
+//         }
+//     })
+// }
+
+// checkOdd(10)
+// .then((resolve)=>{
+//     console.log(resolve);
+// })
+// .catch((reject)=>{
+//     console.log(reject);
+// })
+
+function checkEven (a, b){
+   
+    try{
+        if(b === 0){
+            throw new Error("division by zero is not possible")
+        }
+        return a / b;
+    }
+    catch (error){
+        return  error.message;
+    }
+}
+
+console.log(checkEven(2, 0));
+
