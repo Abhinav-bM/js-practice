@@ -1742,42 +1742,81 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 // let checkGen = checkOdd(2);
 
-function checkGreater (num) {
-        return new Promise ((resolve, reject)=>{
-            setTimeout(()=>{
-                if(num + 10){
-                    resolve("Greaterthan")
-                }
-                else{
-                    reject("Less than")
-                }
-            })
-        })
-}
+// function checkGreater (num) {
+//         return new Promise ((resolve, reject)=>{
+//             setTimeout(()=>{
+//                 if(num + 10){
+//                     resolve("Greaterthan")
+//                 }
+//                 else{
+//                     reject("Less than")
+//                 }
+//             })
+//         })
+// }
+
+// // checkGreater(1)
+// // .then((resolve)=>{
+// //     console.log(resolve);
+// // })
+// // .catch((reject)=>{
+// //     console.log(reject);
+// // })
+
+// async function checkAsy (){
+//     try{
+//         let result = await checkGreater(5)
+//         console.log(result);
+//     }
+//     catch(error){
+//         console.log(error.message);
+//     }
+// }
+// function checkClosure (){
+//     let b = 10;
+
+//     function child(){
+//         console.log(b);
+//     }
+//     return child;
+// }
+
+// let check = checkClosure();
+
+// check();
 
 
-// checkGreater(1)
-// .then((resolve)=>{
-//     console.log(resolve);
-// })
-// .catch((reject)=>{
-//     console.log(reject);
-// })
 
-async function checkAsy (){
-    try{
-        let result = await checkGreater(1)
-        console.log(result);
-    }
-    catch(error){
-        console.log(error.message);
-    }
-}
+// function myCallBack (result){
+//     console.log(result);
+// }
+
+// function sumOfTwo (num1, num2, callbackFn){
+//     let sum = num1 + num2;
+//     callbackFn(sum);
+// }
 
 
+// sumOfTwo(1,2,myCallBack)
+
+// function myCallBack (result){
+//     console.log(result);
+// }
+
+// function sumOfTwo (num1, num2, callbackFunction){
+//     let result = num1 + num2;
+//     callbackFunction(result)
+// }
+
+// sumOfTwo(1,2,myCallBack)
 
 
+// let myObj = {
+//     firstName : "Abhinav",
+//     Adddress : {
+//         houseNumber : 10,
+//     }
+// }
 
-
-
+// console.log(Object.values(myObj));
 
