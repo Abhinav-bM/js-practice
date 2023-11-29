@@ -1,1 +1,1 @@
-esolve("Resolved")
+bindedfullName()

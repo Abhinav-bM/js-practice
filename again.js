@@ -2094,16 +2094,17 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 // fullName.apply(name1, ["Kerala", "Kozhikode"]) 
 
-function fullName (state, district){
-    console.log(this.firstName + " " + this.lastName + " " + "from" + " " + state + "," + district);
-}
+// function fullName (state, district){
+//     console.log(this.firstName + " " + this.lastName + " " + "from" + " " + state + "," + district);
+// }
 
-const name1 = {
-    firstName : "Abhinav",
-    lastName  : "B Manoj"
-}
+// const name1 = {
+//     firstName : "Abhinav",
+//     lastName  : "B Manoj"
+// }
 
-let bindedFullNAme = fullName.bind(name1, "kerala", "kozhikode")
+// let bindedFullNAme = fullName.bind(name1, "kerala", "kozhikode")
 
 
-bindedFullNAme()
+// bindedFullNAme()
+
