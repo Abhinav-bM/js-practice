@@ -1820,3 +1820,248 @@ let array2 = ["a","c","d","b","g","f","e"];
 
 // console.log(Object.values(myObj));
 
+// const country = {
+//     name: 'USA',
+//     details: {
+//         population: 330,
+       
+//         // capital: 'Washington D.C.'
+//     }
+// };
+
+// const capital = country.details.kj;
+
+// console.log(capital);
+
+// let num1= 10;
+
+// function checkThis (){
+//     console.log(num1);
+// }
+
+// checkThis();
+
+
+// function checkOdd (num){
+//     return new Promise((resolve, reject)=>{
+//         if(num % 2 !== 0){
+//             resolve("It is odd")
+//         }
+//         else{
+//             reject("it is even")
+//         }
+//     })
+// }
+
+// checkOdd(2)
+// .then((resolve)=>{
+//     console.log(resolve);
+// })
+// .catch((reject)=>{
+//     console.log(reject);
+// })
+
+// async function checkAwait (){
+//     try{
+//         const result = await checkOdd(3)
+//         console.log(result);
+//     }
+//     catch (error){
+//         console.log("rejected");
+//     }
+// }
+
+// checkAwait();
+
+// function* checkGen (){
+//     yield 1;
+//     yield 2;
+//     yield 3;
+// }
+
+// let result = checkGen();
+
+// console.log(result.next().value);
+// console.log(result.next().value);
+// console.log(result.next().value);
+
+// function* checkGen (){
+//     yield 1; 
+//     yield 2;
+//     yield 3;
+// }
+
+// let iterator = checkGen();
+
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+// console.log(iterator.next().value);
+
+// function myPromise (){
+//     return new Promise((resolve, reject)=>{
+//         resolve("resolve")
+//         // reject("rejected")
+//     })
+// }
+
+
+// async function task (){
+//     try{
+//         await myPromise();
+//         console.log("try worked");
+//     }
+//     catch (error){
+//         console.log("catch worked");
+//     }
+//     finally{
+//         console.log("finally worked");
+//     }
+// }
+
+// task();
+
+
+// let arr = [1,2,3,4,5]
+
+// arr.forEach((a)=>{
+//     console.log(a*2);
+// })
+
+// let maped = arr.map((a)=> a*5)
+
+// console.log(maped);
+
+// let filtered = arr.filter((a)=>a>2)
+
+// let largest = arr.reduce((acc, curr)=>{
+//     if(curr > acc){
+//         acc = curr;
+//     }
+//     return acc
+// },0)
+
+// console.log(largest);
+
+// let num = 10;
+
+// function log (a){
+//     console.log(a*10)
+// }
+
+// log(num);
+
+// console.log(num);
+
+// let person = {
+//     firstName : "Rahul"
+// }
+
+// function change (obj){
+//    return  obj.age = 10;
+// }
+
+// console.log(change(person));
+// console.log(person);
+
+// let myObj = {
+//     firstName : "manoj"
+// }
+
+// function checkReference (obj){
+//     return obj.age = 10;
+// }
+
+// checkReference(myObj);
+
+// console.log(myObj);
+
+
+// let myObj = {
+//     firstName : "Abhinav",
+//     Age : 22,
+
+//     data1 : function (){
+//         return this.firstName + " " + this.Age;
+//     }
+// }
+
+// console.log(Object.entries(myObj));
+
+
+// let fruit = "Apple";
+
+// switch (fruit){
+//     case 'Apple':
+//         console.log("it is an apple")
+//     break;
+    
+//     case 'Orange':
+//         console.log("It is an apple")
+//     break;
+    
+//     default:
+//         console.log("Unknown fruits")
+// }
+// let i = 1;
+
+
+// while (i <= 10 ){
+//     console.log(i);
+//     i++;
+// }
+
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i <= 10)
+
+// function fnStatement (){
+
+// }
+
+// let fnEx = function (num1){ return num1 }
+
+// console.log(fnEx(10));
+
+// Anonymous function
+// const anony = function (){   }
+
+// Named function expression
+// const namedEx = function named (num){
+// console.log(num);
+// }
+
+// namedEx(5);
+
+// let a = {
+//     firstName : "Abhinav",
+//     Age : 30
+// }
+
+// let b = {...a}
+// b.Age = 22;
+// console.log(b);
+// console.log(a);
+
+// const name1 = {
+//     firstName : "Abhinav",
+//     lastName : "B manoj",
+//     fullName : function (){
+//         console.log(this.firstName + " " + this.lastName);
+//     }
+// }
+
+// // name1.fullName();
+
+// const name2 = {
+//     firstName : "Sachin",
+//     lastName : "Tendulkar"
+// }
+
+
+// // Function borrowing
+// name1.fullName.call(name2);
+
+
+
