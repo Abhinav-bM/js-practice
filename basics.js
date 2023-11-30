@@ -318,17 +318,86 @@
 // })
 
 
-setTimeout(function (){
-    console.log("timer");
-},5000)
+// setTimeout(function (){
+//     console.log("timer");
+// },5000)
 
-function x (y){
-    console.log("x");
-    y()
-}
+// function x (y){
+//     console.log("x");
+//     y()
+// }
 
 
-x(function y (){
-    console.log("y");
-})
+// x(function y (){
+//     console.log("y");
+// })
 
+// let count = 0;
+
+// document.getElementById("Click")
+// .addEventListener("click", function x (){
+//     console.log("button clicked", count++);
+// })
+
+
+// let count = 0;
+
+// function x (y){
+//     console.log("x");
+//     y()
+// }
+
+// x(function y (){
+//     console.log("y", count++);
+// })
+
+
+// console.log("hello");
+
+// setTimeout(function (){
+//     console.log("Async");
+// },0)
+
+// console.log("hey")
+
+
+// async function x (y){
+//     console.log("x");
+//     y()
+// }
+
+// x(function y (){
+//     console.log("y");
+// })
+
+
+
+
+
+// function y (a){
+//     return new Promise((resolve, reject) => {
+//         if(a > 10){
+//             resolve("resolved")
+//         }
+//         else{
+//             reject("Rejected")
+//         }
+//     })
+// }
+
+
+
+// async function x (){
+//     try{
+//         await y(11)
+//         console.log("promise succesful")
+//     }
+//     catch(error){
+//         console.error("Promise rejected")
+//     }
+//     finally{
+//         console.log("program executed");
+//     }
+// }
+
+// x()
