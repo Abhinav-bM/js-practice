@@ -372,7 +372,7 @@
 
 
 
-
+``
 
 // function y (a){
 //     return new Promise((resolve, reject) => {
@@ -401,3 +401,36 @@
 // }
 
 // x()
+
+// let radius = [3,1,2,4];
+
+// function calcArea (radius){
+//     const area = [];
+//     for(i=0; i<radius.length; i++){
+//         area.push(Math.PI * radius[i] * radius[i])
+//     }
+//     return area;
+// }
+
+// console.log(calcArea(radius));
+
+
+const arr = [5, 1, 3, 2, 6]
+
+function double (x){
+    return x*2
+}   
+
+function triple (x){
+    return x*3
+}
+
+function binary (x){
+    return x.toString(2)
+}
+
+let mapedOutput = arr.map((x)=>x*2)
+
+console.log(mapedOutput);
+
+
