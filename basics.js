@@ -415,22 +415,64 @@
 // console.log(calcArea(radius));
 
 
-const arr = [5, 1, 3, 2, 6]
+// const arr = [5, 1, 3, 2, 6]
 
-function double (x){
-    return x*2
-}   
+// function double (x){
+//     return x*2
+// }   
 
-function triple (x){
-    return x*3
-}
+// function triple (x){
+//     return x*3
+// }
 
-function binary (x){
-    return x.toString(2)
-}
+// function binary (x){
+//     return x.toString(2)
+// }
 
-let mapedOutput = arr.map((x)=>x*2)
+// let mapedOutput = arr.map((x)=>x*2)
 
-console.log(mapedOutput);
+// console.log(mapedOutput);
+
+
+// let myMap = new Map();
+
+// myMap.set('key1', 'value1');
+// myMap.set('key2', 'value2');
+
+// console.log(myMap.get('key1')); // Output: 'value1'
+// console.log(myMap.size); // Output: 2
+
+
+// let x = new Map()
+
+// x.set('key1', 'value-x')
+// x.set('key2', 'value-y')
+
+
+// console.log(x.get('key1'));
+
+// let array = [1, 2, 3, 4, 5, 6]
+// let odd = array.filter((x) => x % 2 === 0)
+
+
+// console.log(odd);
+
+
+// api.createOrder(function (){
+
+//         api.paymentExecution( function (){
+
+//             api.paymentSummary()
+
+//         })
+//     }
+// )
+
+
+
+let arr = [1, 2, 3, 4, 5]
+
+console.log(trimmed);
+
 
 

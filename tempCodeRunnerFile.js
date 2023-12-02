@@ -1,1 +1,1 @@
- // resolve("hello")
+onsole.log(a);

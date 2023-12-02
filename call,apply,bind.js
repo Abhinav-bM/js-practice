@@ -16,3 +16,4 @@ fullName.apply(name1, ["Kerala", "kozhikode"])
 
 let bindedfullName = fullName.bind(name1, "Kerala", "Kozhikode")
 bindedfullName()
+
