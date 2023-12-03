@@ -517,28 +517,57 @@
 // })
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function returnPromise (num){
-    const pr = new Promise(function (resolve, reject){
-        if(num > 10){
-            const err = new Error ("Greater than 10")
-            reject(err)
-        }
+// function returnPromise (num){
+//     const pr = new Promise(function (resolve, reject){
+//         if(num > 10){
+//             const err = new Error ("Greater than 10")
+//             reject(err)
+//         }
 
-        if(num < 10){
-            resolve(" error : Less than 10")
-        }
-    })
+//         if(num < 10){
+//             resolve(" error : Less than 10")
+//         }
+//     })
 
-    return pr;
-}
+//     return pr;
+// }
 
 
-const promise = returnPromise(3);
+// const promise = returnPromise(3);
 
-promise
-.then(function(resolve){
-    console.log(resolve);
-})
-.catch(function(err){
-    console.log(err.message);
-})
+// promise
+// .then(function(resolve){
+//     console.log(resolve);
+// })
+// .catch(function(err){
+//     console.log(err.message);
+// })
+
+
+// function promiseCheck (){
+//     return new Promise (function (resolve, reject){
+//         // resolve("Resolved");
+//         const err = new Error("rejected")
+//         reject(err)
+//     })
+// }
+
+// promiseCheck()
+// .then(function(resolve){
+//     return resolve
+// })
+// .then(function(resolve){
+//     console.log(resolve);
+// })
+// .catch(function (reject){
+//     console.log(reject.message);
+// })
+
+// async function greet (){
+//     return "namaste"
+// }
+
+// greet()
+// .then(function(result){
+//     console.log(result);
+// })
