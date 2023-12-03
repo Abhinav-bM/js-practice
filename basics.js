@@ -2,7 +2,6 @@
 
 // console.log(a[1][0][1]);
 
-
 // returning boolean from functions
 
 // function booleanreturn(a, b){
@@ -10,7 +9,6 @@
 // }
 
 // console.log(booleanreturn(10, 2));
-
 
 // accessing object data
 
@@ -30,7 +28,6 @@
 
 // console.log(a);
 
-
 // let myArray = ["a","b","c","d"]
 
 // myArray.pop();
@@ -42,7 +39,6 @@
 // myArray.unshift(10);
 
 // console.log(myArray);
-
 
 // let myArray = ["a","b","c"]
 
@@ -58,13 +54,11 @@
 
 // console.log(newArray);
 
-
 // let a = [4,3,2,1,10]
 
 // a.sort(); //used to sort array
 
 // console.log(a);
-
 
 // let a = [1,2,3,4]
 
@@ -81,7 +75,6 @@
 
 // console.log(myObject);
 
-
 // let JohnAge = 25;
 
 // if(JohnAge === 45){
@@ -90,7 +83,6 @@
 // else{
 //     console.log("you are young");
 // }
-
 
 // let johnAge = 46;
 
@@ -107,7 +99,6 @@
 //     console.log("You are too old");
 // }
 
-
 /////////SWITCH statement
 
 // let fruit = "banana";
@@ -121,10 +112,10 @@
 //         case "Apple":
 //             console.log("I bought Orange");
 //             break;
-    
+
 //     default :
 //         console.log("no fruits found");
-            
+
 ////////loop
 
 //for loop
@@ -147,7 +138,6 @@
 //     count ++;
 // }
 
-
 // let count = 0;
 
 // do {
@@ -162,9 +152,6 @@
 //     console.log(myArray[i]);
 // }
 
-
-
-
 //object looping
 // let myObj = {
 //     firstname : "john",
@@ -175,7 +162,6 @@
 // for (let x in myObj){
 //     console.log(myObj[x]);
 // }
-
 
 // function myfunction(a,b){
 //    const sum = a+b;
@@ -194,7 +180,6 @@
 
 // type of operator used to find the type of a js variable
 // console.log(typeof ["fkjef","fhhfh"]);
-
 
 // function
 // function myfunction(a,b){
@@ -224,7 +209,7 @@
 //     secondName : "doe",
 //     age : 45,
 //     fullName : function(){                         //method..............................................
-//         return this.firstName+" "+this.secondName; 
+//         return this.firstName+" "+this.secondName;
 //     }
 // };
 
@@ -246,7 +231,6 @@
 
 // console.log(text);
 
-
 // adding new properties
 
 // const person = {
@@ -261,7 +245,6 @@
 
 // nested arrays and objects
 
-
 // const person = {
 //     firstName : "john",
 //     lastName : "doe",
@@ -272,15 +255,12 @@
 
 // console.log(Object.values(person));   // return property values
 
-// console.log(Object.entries(person));  // return an array containing all property of an keyvalue pairs 
-
+// console.log(Object.entries(person));  // return an array containing all property of an keyvalue pairs
 
 // const target = { a: 1, b: 2 };
 // const source = { b: 4, c: 5 };
 
 // console.log(Object.assign(target,source)); //
-
-
 
 //--------------Arrow function---------------------
 
@@ -303,7 +283,6 @@
 
 // console.log(sum(10,12));
 
-
 // setTimeout(function (){
 //     console.log("timer");
 // },5000)
@@ -317,7 +296,6 @@
 //     console.log("y");
 // })
 
-
 // setTimeout(function (){
 //     console.log("timer");
 // },5000)
@@ -326,7 +304,6 @@
 //     console.log("x");
 //     y()
 // }
-
 
 // x(function y (){
 //     console.log("y");
@@ -339,7 +316,6 @@
 //     console.log("button clicked", count++);
 // })
 
-
 // let count = 0;
 
 // function x (y){
@@ -351,7 +327,6 @@
 //     console.log("y", count++);
 // })
 
-
 // console.log("hello");
 
 // setTimeout(function (){
@@ -359,7 +334,6 @@
 // },0)
 
 // console.log("hey")
-
 
 // async function x (y){
 //     console.log("x");
@@ -370,9 +344,7 @@
 //     console.log("y");
 // })
 
-
-
-``
+``;
 
 // function y (a){
 //     return new Promise((resolve, reject) => {
@@ -384,8 +356,6 @@
 //         }
 //     })
 // }
-
-
 
 // async function x (){
 //     try{
@@ -414,12 +384,11 @@
 
 // console.log(calcArea(radius));
 
-
 // const arr = [5, 1, 3, 2, 6]
 
 // function double (x){
 //     return x*2
-// }   
+// }
 
 // function triple (x){
 //     return x*3
@@ -433,7 +402,6 @@
 
 // console.log(mapedOutput);
 
-
 // let myMap = new Map();
 
 // myMap.set('key1', 'value1');
@@ -442,21 +410,17 @@
 // console.log(myMap.get('key1')); // Output: 'value1'
 // console.log(myMap.size); // Output: 2
 
-
 // let x = new Map()
 
 // x.set('key1', 'value-x')
 // x.set('key2', 'value-y')
-
 
 // console.log(x.get('key1'));
 
 // let array = [1, 2, 3, 4, 5, 6]
 // let odd = array.filter((x) => x % 2 === 0)
 
-
 // console.log(odd);
-
 
 // api.createOrder(function (){
 
@@ -468,11 +432,38 @@
 //     }
 // )
 
+// let arr = [1, 2, 3, 4, 5]
+
+// console.log(trimmed);
+
+// let cart = ["shoe", "shirt"]
+
+// let promise = createOrder(cart)
+
+// promise.then((x)=>{
+//     proceedtoPayment(orderId)
+// })
+
+// const GITHUB_API = "http://api.github.com/users/Abhinav-bM";
+
+// const user = fetch(GITHUB_API);
+// user.then(function (data){
+//     console.log(data);
+// })
 
 
-let arr = [1, 2, 3, 4, 5]
 
-console.log(trimmed);
+function a (){
+   
+    return function b (){
+        console.log(c);
+    }
+    
+}
 
+var c = 10;
 
+let invoke = a();
+
+invoke()
 
