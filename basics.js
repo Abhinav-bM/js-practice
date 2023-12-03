@@ -451,19 +451,94 @@
 //     console.log(data);
 // })
 
+// const cart = ["shoe", "shirt", "pants"]
+
+// function validate(){
+//     return true;
+// }
+
+// function createOrder (cart){
+//     const pr = new Promise (function (resolve, reject){
+//         if (!validate(cart)){
+//             const err = new Error("Car is not valid")
+//             reject(err)
+//         }
+
+//         const id = "1234";
+//         if(id){
+//             resolve(id)
+//         }
+        
+//     });
+
+//     return pr;
+// }   
+
+// const promise = createOrder(cart);
+
+// promise.then(function (orderId){
+//     console.log(orderId);
+// })
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// const cart = ["shoe", "shirt"]
 
 
-function a (){
-   
-    return function b (){
-        console.log(c);
-    }
-    
+
+// function validate (cart){
+//     return false;
+// }
+
+
+
+// function createOrder (cart){
+//     const pr = new Promise (function (resolve, reject){
+        
+//         if(!validate(cart)){
+//             const err = new Error("Cart is not valid")
+//             reject(err)
+//         }
+
+//         const orderId = "1234";
+//         if(orderId){
+//             resolve(orderId)
+//         }
+//     })
+//     return pr
+// }
+
+// const promise = createOrder(cart)
+
+// promise.then(function(orderId){
+//     console.log(orderId);
+// })
+// .catch(function(err){
+//     console.log(err.message);
+// })
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function returnPromise (num){
+    const pr = new Promise(function (resolve, reject){
+        if(num > 10){
+            const err = new Error ("Greater than 10")
+            reject(err)
+        }
+
+        if(num < 10){
+            resolve(" error : Less than 10")
+        }
+    })
+
+    return pr;
 }
 
-var c = 10;
 
-let invoke = a();
+const promise = returnPromise(3);
 
-invoke()
-
+promise
+.then(function(resolve){
+    console.log(resolve);
+})
+.catch(function(err){
+    console.log(err.message);
+})
