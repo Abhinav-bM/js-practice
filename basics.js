@@ -597,12 +597,61 @@
 //     throw new Error("Error occured")
 // }
 
-function chekError (){
-    try{    
-        
-    }catch(err){
-        console.log(err.message);
-    }
-}
+// let  p = new Promise (function (resolve, reject){
+//     setTimeout(()=>{
+//         resolve("helloooo")
+//     },10000)
+// })
 
-chekError()
+// function  x (){
+//     p.then(function(result){
+//         console.log(result);
+//     })
+    
+//     console.log("kbdjv");
+// }
+// x()
+
+// async function y (){
+//     let pr = await p;
+//     console.log(pr);
+//     console.log("djhbkhbj");
+// }
+
+// y()
+
+
+// function divide (a, b){
+//     try{
+//         let result = a/b;
+//         console.log(result);
+//     }
+//     catch(err){
+//         console.log(err);
+//     }
+    
+//     console.log("hekllll");
+// }
+
+// divide(2,2)
+
+// console.log("helooo");
+
+// async function x (){
+//     for (i=0; i< 10000000000; i++){
+        
+//     }
+
+//     console.log("heeeeeee");
+// }
+
+// x()
+
+
+// console.log("world....");
+
+// document.getElementById("idd").addEventListener("click", function (){
+//     console.log("button clicked");
+// })
+
+
