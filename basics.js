@@ -570,4 +570,39 @@
 // greet()
 // .then(function(result){
 //     console.log(result);
+// })'
+
+// let p = new Promise (function (resolve, reject){
+//     setTimeout(()=>{
+//         resolve("resolved............")
+//     },5000)
 // })
+
+// async function handlingPromises (){
+//     console.log("Heloooo");
+
+//     const data1 = await p;
+
+//     console.log(data1)
+
+//     console.log("heloo world");
+
+// }
+
+// handlingPromises()
+
+// console.log("Outer asyn await");
+
+// function err (){
+//     throw new Error("Error occured")
+// }
+
+function chekError (){
+    try{    
+        
+    }catch(err){
+        console.log(err.message);
+    }
+}
+
+chekError()
