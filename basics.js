@@ -655,3 +655,301 @@
 // })
 
 
+
+// const person = {
+//     firstName : "Abhinav",
+//     lastName : "B Manoj"
+// }
+
+// function fullName (district, age){
+//     console.log(this.firstName + " " + this.lastName + " " + "from" + " " + district + " "+ age);
+// }
+
+// // // call method
+// fullName.call(person, "kozhikode", 22)
+
+// // Apply method
+// fullName.apply(person,["kozhikode", 22])
+
+// // bind method
+// const later = fullName.bind(person,"kozhikode",22)
+// later()
+
+
+// const cars = {
+//     brand : "BMW",
+//     color : "Red",
+//     details : function (){
+//         console.log(this.brand + "," + this.color);
+//     }
+// }
+
+// cars.details()
+
+// const bike = {
+//     brand : "Honda",
+//     color: "red"
+// }
+
+// cars.details.call(bike)
+
+// let arr1 = "abhi"
+// let arr2 = "nav "
+// let arr3 = "b manoj"
+
+// let Name = arr1.concat(arr2,arr3)
+
+// // console.log(Name);
+
+// function* x (){
+//     yield 1;
+//     yield 2;
+//     yield 3
+// }
+
+// let y = x();
+
+// console.log(y.next().value);
+
+
+// function* x (){
+//     yield "a";
+//     yield 'b';
+//     yield "h";
+//     yield "i";
+// }
+
+// let y = x()
+
+// console.log(y.next());
+// console.log(y.next());
+// console.log(y.next());
+// console.log(y.next());
+// // console.log(y.next());
+
+// function x ( a,b){
+
+//     try {
+//         // throw new Error("Error occured.........")
+//         console.log(b);
+//     }
+//     catch(err){
+//         console.log(",,,,,,")
+//     }
+//     finally{
+//         console.log("Finally Executed");
+//     }
+
+//     console.log("code after finally");
+// }
+
+// x(2,2)
+
+
+// let cart = ["shoe", "shirt"]
+
+// api.createOrder(cart, function(){
+
+//     api.proceedtoPayment(function(){
+
+//         api.createOrderSummary(function(){
+
+//             api.updateWallet();
+//         })
+//     })
+// })
+
+
+// function greet (name, callback){
+//     const msg = `hiii, ${name}`
+//     callback(msg)
+// }
+
+// function logMessage (mess){
+//     console.log(mess);
+// }
+
+// greet("abhinav", logMessage)
+
+// const person = {
+//     name : "Abhinav",
+//     greet(){
+//         console.log("hello" + " " + this.name);
+//     }
+// }
+
+// person.greet()
+
+
+// let person = new Object();
+// person.firstName = "Abhinav"
+// person.secondName = "b manoj"
+
+// console.log(person);
+
+// let p = new Promise(function(resolve, reject){
+//    setTimeout(() => {
+//     return resolve("resolved")
+//    }, 5000);
+// })
+
+// function z (){
+//     p.then(function(resolve){
+//         console.log(resolve);
+//     })
+//     .catch(function(err){
+//         console.log(err);
+//     })
+
+//     console.log("ffgcgf");
+// }
+
+// async function x (){
+//     try{
+//         let y = await p;
+//         console.log(y);
+
+//         console.log("sbhvnvd");
+
+//     }
+//     catch(err){
+//         console.log(err);
+//     }
+// }
+
+
+// x()
+
+// let arr = [2,2,2,2,2]
+
+// function x (arr){
+//     let y = [];
+//     for(i=0; i<arr.length; i++){
+//         let dd = arr[i];
+//         y.push(dd*2)
+
+//     }
+//     return y;
+// }
+
+// console.log(x(arr));
+
+
+// let arr1 = [1,2,3,4,5,6,7,8,8,7,6,5,4,4,3,3]
+
+// function x (arr){
+//     let unique = new Set(arr)
+//     let uniqueArr = [...unique]
+//     return uniqueArr
+// }
+
+
+// console.log(x(arr1));
+
+
+
+// function maxMin (arr){
+//     let max = arr.reduce((acc, curr)=>{
+//         if(curr > acc){
+//             acc = curr
+//         }
+//         return acc
+//     },0)
+
+
+//     let min = arr.reduce((acc, curr)=>{
+//         if(curr < acc){
+//             acc = curr
+//         }
+//         return acc
+//     },0)
+
+//     console.log(`max : ${max} min : ${min}`);
+
+// }
+
+
+// let arr1 = [1,2,3,4,,5,6,8,9]
+
+// maxMin(arr1)
+
+// let arr1 = [1,2,3,4]
+
+// let transform = arr1.map((a)=> a*2);
+
+// function x (){
+//     let a = 10;
+//     function y (){
+//         console.log(a);
+//     }
+
+//     return y;
+
+// }
+
+
+// let returned = x();
+
+// returned()
+
+// function* x(){
+//     yield 1;
+//     yield 2;
+// }
+
+
+// let y = x();
+
+// console.log(y.next().value);
+
+
+// const x = {
+//     person : {
+//         secondName : "rahul"
+//     }
+// }
+
+// console.log(x.person?.firstName);
+
+
+// (function x (){
+//     console.log("helooo");
+// }())
+
+
+// function* x (){
+//     yield 1;
+//     yield 2;
+//     yield 3;
+// }
+
+// let y = x();
+
+// console.log(y.next().value);
+// console.log(y.next().value)
+// console.log(y.next().valuecos
+
+// function countPositivesSumNegatives(input) {
+   
+//     if (!input || input.length === 0) {
+//         return [];
+//     }
+
+
+//     let countPositive = 0;
+//     let countNegative = 0;
+
+//     for(let x of input){
+//         if(x > 0){
+//             countPositive++;
+//         }
+//         else if (x < 0){
+//             countNegative+=x;
+//         }
+//     }
+//     return [countPositive, countNegative]
+// }
+
+// let arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]
+
+// console.log(countPositivesSumNegatives(arr2));

@@ -50,3 +50,4 @@ console.log(sliced);
 let myArray7 = 'abhinav'
 let substring = myArray7.substring(0,4)
 console.log(substring);
+

@@ -1,10 +1,10 @@
 
-let persons = [
-    {firstName : "Abhinav ", secondNAme : "B Manoj", Age : 22},
-    {firstName : "rahul ", secondNAme : "N p", Age : 27},
-    {firstName : "jeevan ", secondNAme : " joji", Age : 22},
-    {firstName : "rohit", secondNAme : "k", Age : 24}
-]
+// let persons = [
+//     {firstName : "Abhinav ", secondNAme : "B Manoj", Age : 22},
+//     {firstName : "rahul ", secondNAme : "N p", Age : 27},
+//     {firstName : "jeevan ", secondNAme : " joji", Age : 22},
+//     {firstName : "rohit", secondNAme : "k", Age : 24}
+// ]
 
 // let fullName = persons.map(x => x.firstName + x.secondNAme)
 
@@ -19,13 +19,15 @@ let persons = [
 //     return acc;
 // },{})
 
-// console.log(output);
+// console.log(output);ṇ
 
 // let agebelow27 = persons.filter((x)=> x.Age < 27).map((x) => x.firstName + " " + x.secondNAme)
 // console.log(agebelow27);
 
-function x (y){
-    
-}
+let x = [1,2,4,5,6,6]
 
-let a = function () {return}
+const sum = x.reduce((acc,curr)=>{
+    return acc+curr;
+},0)
+
+console.log(sum);
