@@ -37,6 +37,10 @@
 
 
 
+function sum (...args){
+    return args.reduce((acc,curr)=>{
+        return acc+curr;
+    },0)
+}
 
-
-console.log(areaOrperimeter(6,10));
+console.log(sum(1,2,3,4,5,6,7,87));
