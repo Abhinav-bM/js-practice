@@ -1,4 +1,3 @@
-
 // // var x = 7;
 
 // // function greet (){
@@ -20,10 +19,9 @@
 
 // // uniqueSet.forEach((x)=>newArr.push(x))
 
-
 // // console.log(newArr)
 
-// // let a = 10 
+// // let a = 10
 
 // // console.log(a);
 // // greet()
@@ -32,11 +30,8 @@
 // //     console.log("Heloooooooooooooooooooooo")
 // // }
 
-
-
-
 // let array = [
-    
+
 //     {
 //         home:{
 //             siblings:"3",
@@ -67,7 +62,7 @@
 
 // array.forEach((x)=>{
 //     x.home.address.forEach((y)=>{
-        
+
 //         if(y.city === 'kozhikode'){
 //             y.city = "Kottyam"
 //         }
@@ -75,14 +70,34 @@
 //     })
 // })
 
-
-
 // let a = require('./export')
 // a.muti(1,2)
 
-let newArr = [1,2,3,4,5,6,7]
+// let newArr = [1,2,3,4,5,6,7]
 
-let sum = newArr.reduce((acc,curr)=>{
-    return acc+curr
-},0)
-console.log(sum);
+// let sum = newArr.reduce((acc,curr)=>{
+//     return acc+curr
+// },0)
+// console.log(sum);
+
+let arr = [
+  {
+    name: "Lincy",
+    age: 33,
+    address: [{ city: "Alappuza" }, { pin: 111111 }],
+  },
+
+  {
+    name: "Abhinav",
+    age: 22,
+    address: [{ city: "Kozhikode" }, { pin: 222222 }],
+  },
+];
+
+arr.map((x) => {
+  if (x.age > 22) {
+    x.age = 50;
+  }
+});
+
+console.log(arr);
