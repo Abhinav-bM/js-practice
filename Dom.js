@@ -80,4 +80,9 @@
 // let a = require('./export')
 // a.muti(1,2)
 
+let newArr = [1,2,3,4,5,6,7]
 
+let sum = newArr.reduce((acc,curr)=>{
+    return acc+curr
+},0)
+console.log(sum);
