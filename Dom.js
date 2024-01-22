@@ -80,24 +80,52 @@
 // },0)
 // console.log(sum);
 
-let arr = [
-  {
-    name: "Lincy",
-    age: 33,
-    address: [{ city: "Alappuza" }, { pin: 111111 }],
-  },
+// let arr = [
+//   {
+//     name: "Lincy",
+//     age: 33,
+//     address: [{ city: "Alappuza" }, { pin: 111111 }],
+//   },
 
-  {
-    name: "Abhinav",
-    age: 22,
-    address: [{ city: "Kozhikode" }, { pin: 222222 }],
-  },
-];
+//   {
+//     name: "Abhinav",
+//     age: 22,
+//     address: [{ city: "Kozhikode" }, { pin: 222222 }],
+//   },
+// ];
 
-arr.map((x) => {
-  if (x.age > 22) {
-    x.age = 50;
-  }
-});
+// arr.map((x) => {
+//   if (x.age > 22) {
+//     x.age = 50;
+//   }
+// });
 
-console.log(arr);
+// console.log(arr);
+
+
+
+// function greet (){
+    
+//     for(var i = 1; i<=5; i++){
+//         function closure(i){
+//             setTimeout(()=>{
+//                 console.log(i)
+//             },i*1000)
+//         }
+//         closure(i)
+//     }
+
+//     console.log('heloooooooo');
+// }
+
+// greet()
+
+
+function sum (...a){
+ return a.reduce((acc, curr)=>{
+    return acc+curr;
+ },0)
+}
+
+
+console.log(sum(1,2,3,3,4,5));
