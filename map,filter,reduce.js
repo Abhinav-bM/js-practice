@@ -37,10 +37,18 @@
 
 
 
-function sum (...args){
-    return args.reduce((acc,curr)=>{
-        return acc+curr;
-    },0)
-}
+let array = [1,2,3,4,5,6,7,8,9]
 
-console.log(sum(1,2,3,4,5,6,7,87));
+// let max = array.reduce((acc,curr,)=>{
+//     if(curr > acc){
+//         acc = curr
+//     }
+//     return acc
+// })
+
+// console.log(max);
+
+
+let sum = array.filter((x)=> x % 2).map((x)=>x*2).reduce((acc,curr)=>acc+curr)
+
+console.log(sum);
