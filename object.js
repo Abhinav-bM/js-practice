@@ -112,12 +112,13 @@ const nestedObject = {
   ],
 };
 
-for(let key in nestedObject){
-  nestedObject[key].forEach((elem)=>{
-    for(let x in elem){
-      if(elem[x] === 'Jane'){
-        elem[x] = "Hamim"
+for (let key in nestedObject) {
+  nestedObject[key].forEach((elem) => {
+    for (let x in elem) {
+      if (elem[x] === "Jane") {
+        elem[x] = "Hamim";
       }
     }
-  })
+  });
 }
+
