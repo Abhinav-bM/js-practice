@@ -54,16 +54,23 @@
 
 
 // /// currying
-function sum (x,y,z){
-    return x+y+z
-}
+// function sum (x,y,z){
+//     return x+y+z
+// }
 
-function sum (x){
-    return function (y){
-        return  function (z){
-            return x+y+z
-        }
-    }
-}
+// function sum (x){
+//     return function (y){
+//         return  function (z){
+//             return x+y+z
+//         }
+//     }
+// }
 
-console.log(sum(1)(2)(3));
+// console.log(sum(1)(2)(3));
+
+let b  = [5,6,7,8,9]
+
+let a = [1,2,3,4,5,...b]
+
+
+console.log(a);
