@@ -14,9 +14,19 @@
 //     }
 // }
 
-
 // console.log(result(a,10));
 
-
 // move a number to the last of the array
-let a = [6,1,6,8,10,4,15,6,,3,9,6]
+let a = [6, 1, 6, 8, 10, 4, 15, 6, , 3, 9, 6];
+
+// factorial of number using for loops
+function factorial(n) {
+  let fact = 1;
+
+  for (i = 2; i <= n; i++) {
+    fact = fact * i;
+  }
+  return fact;
+}
+
+console.log(factorial(5));
