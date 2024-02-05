@@ -44,4 +44,21 @@
 //   console.log(row);
 // }
 
+// charcode at
+// let a = "abhinav";
 
+// console.log(a.charCodeAt(1));
+// 96;
+
+let str = "man i need a taxi up to ubud";
+
+function high(x) {
+  let high = [];
+  let sum = 0;
+  let splitted = x.split(" ");
+  splitted.forEach((data) => {
+    console.log(data);
+  });
+}
+
+high(str);

@@ -1,10 +1,11 @@
-let myObj = {
-    firstName : "Abhinav",
-    cars : {
-        car1 : "bmw",
-        car2 : "audi"
-    }
-}
-  
-console.log(myObj.carz?.car1)
+const myObj = {
+  firstName: "Abhinav",
+  cars: {
+    car1: "bmw",
+    car2: "audi",
+  },
+};
 
+for (let x in myObj) {
+  console.log(x);
+}
