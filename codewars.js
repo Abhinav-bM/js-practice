@@ -50,15 +50,34 @@
 // console.log(a.charCodeAt(1));
 // 96;
 
-let str = "man i need a taxi up to ubud";
+// let str = "man i need a taxi up to ubud";
 
-function high(x) {
-  let high = [];
-  let sum = 0;
-  let splitted = x.split(" ");
-  splitted.forEach((data) => {
-    console.log(data);
-  });
+// function high(x) {
+//   let high = [];
+//   let sum = 0;
+//   let splitted = x.split(" ");
+//   splitted.forEach((data) => {
+//     console.log(data);
+//   });
+// }
+
+// high(str);
+
+/////There is a queue for the self-checkout tills at the supermarket. Your task is write a function to calculate the total time required for all the customers to check out!
+// function queueTime(customers, n) {
+//   let tills = Array(n).fill(0); // Initialize tills with 0 time taken
+//   for (let i = 0; i < customers.length; i++) {
+//     let nextTill = tills.indexOf(Math.min(...tills)); // Find the next available till
+//     tills[nextTill] += customers[i]; // Assign the next customer to the available till
+//   }
+//   return Math.max(...tills); // Return the time taken by the longest running till
+// }
+
+function queueTime(customers, n) {
+  let tills = Array(n).fill(0)
+  // console.log(tills);
+
+
 }
 
-high(str);
+queueTime([1,2,3,4],1)
