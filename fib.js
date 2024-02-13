@@ -8,4 +8,7 @@ function reverse (str){
 
 
 
-console.log(reverse("helo"));
+console.log(reverse("helo"))
+
+
+
