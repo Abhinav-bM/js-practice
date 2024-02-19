@@ -73,11 +73,50 @@
 //   return Math.max(...tills); // Return the time taken by the longest running till
 // }
 
-function queueTime(customers, n) {
-  let tills = Array(n).fill(0)
-  // console.log(tills);
+// function queueTime(customers, n) {
+//   let tills = Array(n).fill(0)
+//   // console.log(tills);
 
 
+// }
+
+// queueTime([1,2,3,4],1)
+
+
+// 
+
+let arr = [1,2,3,4,3,1]
+
+
+
+function sumOfLeftRight(arr){
+  
+  function sumArray(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+    return sum;
 }
 
-queueTime([1,2,3,4],1)
+for (let i = 0; i < arr.length; i++) {
+    let leftSum = 0;
+    for (let j = 0; j < i; j++) {
+        leftSum += arr[j];
+    }
+
+    let rightSum = 0;
+    for (let k = i + 1; k < arr.length; k++) {
+        rightSum += arr[k];
+    }
+
+    if (leftSum === rightSum) {
+        return i;
+    }
+}
+
+return -1;
+}
+
+console.log(sumOfLeftRight(arr));
+
