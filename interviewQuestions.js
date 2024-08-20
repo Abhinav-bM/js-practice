@@ -14,5 +14,4 @@ function maxOfAnArray(arr){
     }
     return max
 }
-
 console.log(maxOfAnArray([1,2,3,4,15]))
